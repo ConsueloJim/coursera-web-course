@@ -16,9 +16,6 @@ h3{
 p{
 	font-size: 1em;
 }
-br{
-
-}
 /* END BODY */
 
 /** NAV BAR **/
@@ -43,7 +40,8 @@ br{
 	text-align: middle;
 }
 #nav-list{
-	margin-top: 0px; 
+	margin-top: 0;
+	margin-bottom: 0;
 }
 #nav-list a {
 	text-align: center;
@@ -62,27 +60,13 @@ br{
 }
 .navbar-header button.navbar-toggle{
 	clear: both;
-	margin-top: -30px;	
+	margin-top: -40px;	
 }
-
 /* END NAV BAR */
 
 /* JUMBOTRON */
 .jumbotron{
 	background-color: #778899;
 }
-
 /* END JUMBOTRON */
 
-/* MEDIA QUIRIES */
-
-@media (min-width: 997){
- 
-}
-
-@media (min-width: 767) and (max-width: 996){
- 
-}
-@media (max-width:766){
-
-}
