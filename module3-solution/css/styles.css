@@ -1,0 +1,72 @@
+
+/* BODY */
+body{
+	font-size: 16px; 
+	background-color: #D3D3D3;
+	font-family: Comic Sans MS; 
+}
+h1{
+	margin-top: 0;
+	padding-bottom: 30px;
+	font-family: Comic Sans MS;
+}
+h3{
+	font-size: 2em;
+}
+p{
+	font-size: 1em;
+}
+/* END BODY */
+
+/** NAV BAR **/
+#header-nav{
+	background-color: #B0C4DE;
+	border-radius: 0;
+	border: 0; 
+}
+.navbar-brand{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.navbar-brand h1{
+	font-size: 1.8em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -10px; 
+	line-height: .75;
+	color: #CD5C5C;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+	text-align: middle;
+}
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a {
+	text-align: center;
+	font-size: 3vw;
+	color: #000000;
+}
+#nav-list a:hover{
+	background: #CD5C5C;
+}
+.navbar-collapse a {
+	background: #778899; 
+	margin-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #CD5C5C;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -40px;	
+}
+/* END NAV BAR */
+
+/* JUMBOTRON */
+.jumbotron{
+	background-color: #778899;
+}
+/* END JUMBOTRON */
+
